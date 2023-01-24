@@ -1,6 +1,10 @@
-# Summer Project Research - 2022
+# Summer Project - 2022
 
-This is a simple application of the SLIC algorithm for superpixel generation. The SLIC algorithm is described in the paper [SLIC Superpixels](https://www.epfl.ch/labs/ivrl/research/slic-superpixels/).
+This respority is to show my summer project of 2022. 
+Our idea is to combine the SLIC algorithm with the Vision Transformer to improve the performance of the Vision Transformer. 
+
+Here is the Rough schematic diagram in [miro](https://miro.com/welcomeonboard/RmhDZGhsYnZZVGhNVzB5cGJwYXZxN2k4cVc1RWJ6Z3lPTXU0ZlBhTmtDSGJUNnpVa0lORk9jMGdqZWFRZnMxZXwzNDU4NzY0NTMyMDI2OTgyMTY2fDI=?share_link_id=744521960709).
+
 
 ## Demo
 We create a [demo](demo.ipynb) to show how SLIC algorithm works and how to use our work.
