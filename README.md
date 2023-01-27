@@ -5,7 +5,7 @@ Our idea is to combine the SLIC algorithm with the Vision Transformer to improve
 
 ## Schematic diagram
 
-![pic](pic.png)
+![pic](picture.png)
 
 The full vision schematic diagram is in [miro](https://miro.com/welcomeonboard/RmhDZGhsYnZZVGhNVzB5cGJwYXZxN2k4cVc1RWJ6Z3lPTXU0ZlBhTmtDSGJUNnpVa0lORk9jMGdqZWFRZnMxZXwzNDU4NzY0NTMyMDI2OTgyMTY2fDI=?share_link_id=744521960709).
 
