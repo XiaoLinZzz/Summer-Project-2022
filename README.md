@@ -31,9 +31,12 @@ path                   the path of the image
 numSegments            the number of segments
 ratio                  the ratio of the mask
 size                   the size of the patches (if you want a 16*16 patch, size=16)
-save_choice            whether to save the result (default is False, and the result will be saved to the folder 'patches' with .jgp format)
+save_choice            whether to save the result (default is False)
 ```
 
+if you choose to enable the save_choice, the result will be saved to the folder 'patches' with .jgp format. So, make sure you have an empty folder named 'patches' in the same directory.
+
+In this respority, we generate some examples. You can find them in the folder [patches](patches).
 
 ## Dataset
 More details about dataset can be found in the [README-dataset](README-dataset.md) file.
