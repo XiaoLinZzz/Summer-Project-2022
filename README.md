@@ -15,7 +15,8 @@ The full vision schematic diagram is in [miro](https://miro.com/welcomeonboard/R
 - pytorch >=0.4.0
 - torchvision
 - skimage
-as
+- matplotlib
+
 ## Demo
 We create a [demo](demo.ipynb) to show how SLIC algorithm works and how to use our work.
 
