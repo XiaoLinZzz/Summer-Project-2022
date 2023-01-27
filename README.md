@@ -31,7 +31,7 @@ path                   the path of the image
 numSegments            the number of segments
 ratio                  the ratio of the mask
 size                   the size of the patches (if you want a 16*16 patch, size=16)
-save_choice            whether to save the result
+save_choice            whether to save the result (default is False, and the result will be saved to the folder 'patches' with .jgp format)
 ```
 
 
