@@ -32,7 +32,7 @@ In the main function, there are some parameters that can be changed.
 ```
 slic(path, numSegments=100, ratio=0.9, size=16, save_choice=False)
 
-path                   the path of the image
+path                   the path of the image (More details can be found in the section 'Dataset')
 numSegments            the number of segments
 ratio                  the ratio of the mask
 size                   the size of the patches (if you want a 16*16*3 patch, size=16)
