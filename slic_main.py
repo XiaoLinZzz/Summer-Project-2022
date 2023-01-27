@@ -1,6 +1,4 @@
 import cv2
-import numpy as np
-from PIL import Image
 from build_dataset import *
 from patchify import get_patch
 from torch.utils.data import DataLoader
