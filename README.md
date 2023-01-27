@@ -35,7 +35,7 @@ slic(path, numSegments=100, ratio=0.9, size=16, save_choice=False)
 path                   the path of the image
 numSegments            the number of segments
 ratio                  the ratio of the mask
-size                   the size of the patches (if you want a 16*16 patch, size=16)
+size                   the size of the patches (if you want a 16*16*3 patch, size=16)
 save_choice            whether to save the result (default is False)
 ```
 
