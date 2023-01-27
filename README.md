@@ -20,6 +20,21 @@ The full vision schematic diagram is in [miro](https://miro.com/welcomeonboard/R
 ## Demo
 We create a [demo](demo.ipynb) to show how SLIC algorithm works and how to use our work.
 
+## Usage
+Run  [slic_main.py](slic_main.py) to get the result of SLIC algorithm.
+
+In the main function, there are some parameters that can be changed.
+```
+slic(path, numSegments=100, ratio=0.9, size=16, save_choice=False)
+
+path                   the path of the image
+numSegments            the number of segments
+ratio                  the ratio of the mask
+size                   the size of the patches (if you want a 16*16 patch, size=16)
+save_choice            whether to save the result
+```
+
+
 ## Dataset
 More details about dataset can be found in the [README-dataset](README-dataset.md) file.
 

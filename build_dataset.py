@@ -37,8 +37,8 @@ class CustomDataset(Dataset):
     
     
 if __name__ == "__main__":
-    path = "/home/lma/Summer-project-1/SLIC/animals"
+    path = "/Users/malujie/Summer-Project-2022/animals"
     dataset = CustomDataset(path)
-    data_loader = DataLoader(dataset, batch_size=4, shuffle=True)
+    data_loader = DataLoader(dataset, batch_size=1, shuffle=True)
     
     print(len(dataset))

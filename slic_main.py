@@ -4,11 +4,12 @@ from patchify import get_patch
 from torch.utils.data import DataLoader
 
 class slic:
-    def __init__(self, path, numSegments, ratio, size):
+    def __init__(self, path, numSegments, ratio, size, save_choice=False):
         self.path = path
         self.numSegments = numSegments
         self.ratio = ratio
-        self.size = size  
+        self.size = size
+        self.save_choice = save_choice
     
     def build_dataset(self):
         dataset = CustomDataset(self.path)
@@ -26,7 +27,8 @@ class slic:
             images_list.append(image)
             num_images = len(images_list)
             # print(num_images)
-            
+        
+        
         # get patches & save them
         patches_list = []
         num_patch_list = []
@@ -46,7 +48,8 @@ class slic:
                 patch = cv2.resize(patch, (self.size, self.size))
                 
                 # i is the image number, j is the patch number
-                # cv2.imwrite("patches/patch_{}_{}.png".format(i, j), patch)
+                if self.save_choice == True:
+                    cv2.imwrite("patches/patch_{}_{}.png".format(i, j), patch)
                 
                 patches_list.append(patch)
                 
@@ -58,11 +61,14 @@ class slic:
         
     
 if __name__ == "__main__":
-    path = "/home/lma/Summer-project-1/SLIC/animals"
+    path = "/Users/malujie/Summer-Project-2022/animals"
     
     slic = slic(path, numSegments=100, ratio=0.9, size=16)
     patch_list, num_patch_list = slic.get_patches()
     
-    print(len(patch_list))
-    print(patch_list[0].shape)
-    print(num_patch_list)
+    print("number of images:", len(num_patch_list))
+    print("number of total pacthes:", len(patch_list))
+    print("patch's shape:", patch_list[0].shape)
+    
+    for i in range(len(num_patch_list)):
+        print("number of patches in image {}: {}".format(i+1, num_patch_list[i]))
