@@ -61,7 +61,7 @@ class slic:
         
     
 if __name__ == "__main__":
-    path = "/Users/malujie/Summer-Project-2022/animals"
+    path = "Users\XiaoLinzzz\Documents\GitHub\SLIC\animals"
     
     slic = slic(path, numSegments=100, ratio=0.9, size=16)
     patch_list, num_patch_list = slic.get_patches()
