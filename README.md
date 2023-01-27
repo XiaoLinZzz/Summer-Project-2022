@@ -1,6 +1,6 @@
 # Summer Project - 2022
 
-This respority is to show my summer project of 2022. 
+This repository is to show my summer project of 2022. 
 Our idea is to combine the SLIC algorithm with the Vision Transformer to improve the performance of the Vision Transformer. 
 
 ## Schematic diagram
@@ -16,6 +16,11 @@ The full vision schematic diagram is in [miro](https://miro.com/welcomeonboard/R
 - torchvision
 - skimage
 - matplotlib
+
+## One-line installation
+```
+pip install -r requirements.txt
+```
 
 ## Demo
 We create a [demo](demo.ipynb) to show how SLIC algorithm works and how to use our work.
@@ -34,9 +39,9 @@ size                   the size of the patches (if you want a 16*16 patch, size=
 save_choice            whether to save the result (default is False)
 ```
 
-if you choose to enable the save_choice, the result will be saved to the folder 'patches' with .jgp format. So, make sure you have an empty folder named 'patches' in the same directory.
+If you choose to enable the save_choice, the result will be saved to the folder 'patches' with .jgp format. So, make sure you have an empty folder named 'patches' in the same directory.
 
-In this respority, we generate some examples. You can find them in the folder [patches](patches).
+In this repository, we generate some examples. You can find them in the folder [patches](patches).
 
 ## Dataset
 More details about dataset can be found in the [README-dataset](README-dataset.md) file.

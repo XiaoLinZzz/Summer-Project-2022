@@ -1,4 +1,6 @@
 numpy
-torch==0.4.1
+opencv-python
+scikit-image
+torch
 torchvision==0.2.0
-matplotlib==2.0.0
+matplotlib
