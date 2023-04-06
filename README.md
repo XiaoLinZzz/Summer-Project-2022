@@ -1,4 +1,4 @@
-# Summer Project - 2022
+# Apply SLIC algorithm with the Vision Transformer
 
 This repository is to show my summer project of 2022. 
 Our idea is to combine the SLIC algorithm with the Vision Transformer to improve the performance of the Vision Transformer. 
